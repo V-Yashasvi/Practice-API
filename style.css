@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+.container{
+    /* border: 10px solid brown; */
+    height: 100%;
+}
+.search-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    height: 100px;
+}
+.content{
+    /* border: 2px solid red; */
+    height: calc(100% - 100px);
+}
+#search-bar{
+    width: 30%;
+    padding: 1em;
+    /* height: 50%; */
+    border: 2px solid green;
+}
+#search-btn{
+    padding: 1em;
+    border: 1px solid black;
+}
